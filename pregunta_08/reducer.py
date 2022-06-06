@@ -12,7 +12,7 @@ if __name__ == '__main__':
 
     curkey = None
     cuenta=0
-    suma=0
+    suma=0.0
     #
     # cada linea de texto recibida es una entrada clave \tabulador valor
     #
