@@ -39,11 +39,11 @@ if __name__ == '__main__':
                 # con la misma clave se imprime el resultado en
                 # el flujo de salida
                 #
-                sys.stdout.write("{}\t{}\t{}\n".format(curkey, suma,promedio))
+                sys.stdout.write("{}\t{}\t{}\n".format(curkey,float(suma),promedio))
                 
             curkey = key
             suma = val
             cuenta = 1 
             promedio = suma/cuenta
 
-    sys.stdout.write("{}\t{}\t{}\n".format(curkey,suma,promedio))
+    sys.stdout.write("{}\t{}\t{}\n".format(curkey,float(suma),promedio))
